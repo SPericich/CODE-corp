@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="aplication-name" content="Currículum Vitae">
+    <meta name="description" content="Página de presentación del grupo CODE corp.">
+    <meta name="author" content="Sonia Beatriz Pericich">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="icon" href="faviconM4.ico" type="image/x-icon">
+    <!--Íconos-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CODE corp</title>
+</head>
+<body>
+    <!--Página1-->
+    <header class="contenedor">
+        <h1>CODE corp. tech solutions</h1>
+    </header>
+    <section class="visual">
+        <div>
+            <input  title="Modo oscuro" id="checkitem" type="checkbox" onclick="enableDarkMode()">
+            <br/>
+            <audio id="audio">
+                <source src="techno-trance-byCOF.mp3" type="audio/mpeg">
+            </audio>
+            <button id="reproducir" onclick="playPause()">Reproducir</button>
+            <button id="detener" onclick="stop()">Detener</button>
+        </div>
+    </section>
+    <main class="contenedor">
+        <!--Logo, datos básicos-->
+        <section class="page1" id="pag1">
+            <div>
+                <img src="LOGOCC2.png"/>
+                <h1><span class="negrita">CODE corp.</span> <i>tech solutions</i></h1>
+                <p><span class="negrita">Grupo:</span> 10</p>
+                <p><span class="negrita">Materia:</span> Planificación de proyectos </p>
+                <p><span class="negrita">Carrera:</span> Tecnicatura en Diseño y Desarrollo de Aplicaciones Multiplataforma (TUDDAM)</p>
+                <p><span class="negrita">Universidad:</span> Universidad Nacional Del Noroeste de la Provincia de Buenos Aires (UNNOBA)</p>
+            </div>
+            <!--Boton a página 2-->
+            <div>
+                <h3>¿Quiénes somos?</h3>
+                <p><a href="#pag2">Ver integrantes<i class='bx bxs-chevron-right-circle'></i></a>
+            </div>
+            <!--Contacto-->
+            <div>
+                <h3>Contacto</h3>
+                <a href="mailto:sbpericich@comunidad.unnoba.edu.ar" target="_blank"><i class='bx bx-envelope'></i>E-mail</a></p>
+            </div>
+        </section>
+
+        <!--Página 2 Integrantes-->
+        <section class="page2" id="pag2">
+            <h4>Integrantes</h4>
+            <ul>
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=40466&course=8908" target="_blank" class="especial">MANUEL CALVO</a>
+                </li>
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=65318&course=8908" target="_blank" class="especial">ROXANA VANESA DELLAMEA</a>
+                </li>                
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=65546&course=8908" target="_blank" class="especial">DIANA PAOLA ITURRIA</a>
+                </li>                
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=64659&course=8908" target="_blank" class="especial">LUCAS ELÍAS LEAL</a>
+                </li>                
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=55433&course=8908" target="_blank" class="especial">HECTOR GABRIEL LOPEZ</a>
+                </li>                
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=65622&course=8908" target="_blank" class="especial">ANDREA VIVIANA MARCHETTO</a>
+                </li>                
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=65597&course=8908" target="_blank" class="especial">LUCIANO MARTIN OLALDE</a>
+                </li>                
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=65426&course=8908" target="_blank" class="especial">SONIA BEATRIZ PERICICH</a>
+                </li>                
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=65058&course=8908" target="_blank" class="especial">PABLO HEBER SOFÍA</a>
+                </li>
+                <li>
+                    <a href="https://plataformaed.unnoba.edu.ar/user/view.php?id=42827&course=8908" target="_blank" class="especial">CELSO THOMAS DANIEL VERDÚN</a>
+                </li>
+            </ul>
+            <br/>
+            <a href="#pag1"><i class='bx bxs-chevron-left'></i>Volver</a>
+        </section>
+    </main>
+    <script src="programacion.js"></script>
+</body>
+</html>
