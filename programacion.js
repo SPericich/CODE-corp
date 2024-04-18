@@ -1,8 +1,3 @@
-function enableDarkMode() {
-    let main_body = document.body;
-    main_body.classList.toggle("modooscuro")
-}
-
 var audio = document.getElementById('audio');
 var reproducir = document.getElementById("reproducir");
 var count = 0;
